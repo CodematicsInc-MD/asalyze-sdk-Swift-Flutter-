@@ -1,0 +1,25 @@
+{
+  "name": "com.asalyze.sdk",
+  "version": "3.1.0",
+  "displayName": "Asalyze",
+  "description": "Apple Search Ads ROAS attribution + StoreKit 2 subscription and ad-revenue tracking for Unity iOS. Configure once \u2014 AdServices attribution and purchases are observed automatically. iOS only (Apple Search Ads is iOS-only).",
+  "license": "MIT",
+  "unity": "2020.3",
+  "keywords": [
+    "ios",
+    "attribution",
+    "apple search ads",
+    "asa",
+    "roas",
+    "iap",
+    "subscriptions",
+    "analytics",
+    "adservices"
+  ],
+  "author": {
+    "name": "Codematics",
+    "url": "https://asalyze.com"
+  },
+  "documentationUrl": "https://asalyze.com/docs",
+  "dependencies": {}
+}

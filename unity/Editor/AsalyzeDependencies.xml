@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  External Dependency Manager for Unity (EDM4U) — declares the native iOS CocoaPods dependency.
+  On an iOS build, EDM4U adds `pod 'Asalyze'` to the generated Xcode project's Podfile and runs
+  `pod install`. Requires EDM4U in the project (com.google.external-dependency-manager).
+-->
+<dependencies>
+  <iosPods>
+    <iosPod name="Asalyze" version="~> 2.2" minTargetSdk="15.0" addToAllTargets="false">
+      <sources>
+        <source>https://github.com/CocoaPods/Specs</source>
+      </sources>
+    </iosPod>
+  </iosPods>
+</dependencies>
