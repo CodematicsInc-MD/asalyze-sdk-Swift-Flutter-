@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'asalyze'
-  s.version          = '3.1.0'
+  s.version          = '3.1.1'
   s.summary          = 'Apple Search Ads ROAS tracking for iOS Flutter apps.'
   s.description      = 'Self-contained Flutter plugin: AdServices attribution + StoreKit 2 revenue + ad revenue. The native Asalyze SDK sources are vendored under Classes/native and compiled into this pod — no external dependency.'
   s.homepage         = 'https://asalyze.com'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Codematics' => 'dev@codematics.co' }
   s.source           = { :path => '.' }
   # Includes the plugin bridge (Classes/*.swift) AND the vendored native SDK (Classes/native/**).
-  s.source_files     = 'Classes/**/*'
+  s.source_files     = 'Classes/**/*.swift'
   s.resource_bundles = { 'asalyze' => ['Classes/PrivacyInfo.xcprivacy'] }
   s.dependency 'Flutter'
   # AdServices (attribution) + StoreKit (revenue) are Apple system frameworks — weak-linked so the app
