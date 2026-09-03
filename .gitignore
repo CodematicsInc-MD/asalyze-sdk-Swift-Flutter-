@@ -1,0 +1,14 @@
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+.DS_Store
+
+flutter/.dart_tool/
+flutter/build/
+flutter/.flutter-plugins
+flutter/.flutter-plugins-dependencies
+flutter/pubspec.lock
+
+Pods/
+Podfile.lock
