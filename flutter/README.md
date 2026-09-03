@@ -81,3 +81,7 @@ never appear in the transaction stream and there is nothing to report from the a
 
 Connect App Store Server Notifications and this is handled — including for users who never reopen the
 app, which no on-device code can cover.
+
+---
+
+Built and maintained by [Codematics Services Private Limited](https://asalyze.com). Malik Ahsan Ali — Founder & Managing Director.

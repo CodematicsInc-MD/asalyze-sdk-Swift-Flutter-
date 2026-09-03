@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   DESC
   s.homepage         = 'https://asalyze.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Codematics' => 'dev@codematics.co' }
+  s.author           = { 'Malik Ahsan Ali' => 'dev@codematics.co' }
   s.source           = { :git => 'https://github.com/CodematicsInc-MD/asalyze-sdk-Swift-Flutter-.git', :tag => "v#{s.version}" }
   s.source_files     = 'Sources/Asalyze/**/*.swift'
   s.resource_bundles = { 'Asalyze' => ['Sources/Asalyze/PrivacyInfo.xcprivacy'] }

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = 'Self-contained Flutter plugin: AdServices attribution + StoreKit 2 revenue + ad revenue. The native Asalyze SDK sources are vendored under Classes/native and compiled into this pod — no external dependency.'
   s.homepage         = 'https://asalyze.com'
   s.license          = { :type => 'MIT' }
-  s.author           = { 'Codematics' => 'dev@codematics.co' }
+  s.author           = { 'Malik Ahsan Ali' => 'dev@codematics.co' }
   s.source           = { :path => '.' }
   # Includes the plugin bridge (Classes/*.swift) AND the vendored native SDK (Classes/native/**).
   s.source_files     = 'Classes/**/*.swift'
